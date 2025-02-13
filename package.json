@@ -13,6 +13,8 @@
     "@heroicons/react": "^2.2.0",
     "@types/node": "^22.13.1",
     "framer-motion": "^12.4.2",
+    "lucide": "^0.475.0",
+    "lucide-react": "^0.475.0",
     "react": "^19.0.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.0.0"

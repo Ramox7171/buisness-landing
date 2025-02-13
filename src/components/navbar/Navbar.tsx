@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon } from "@heroicons/react/24/solid";
 import Logo from "../../assets/logo.png"
 import Link from "./Link";
 import { SelectedPage } from "../../shared/types.helper";
@@ -16,8 +16,8 @@ type Props = {
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
   const flexBetween = "flex items-center justify-between";
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
-  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
-  const navbarBackground = isTopOfPage ? "bg-black" : "bg-primary-100 drop-shadow";
+  const isAboveMediumScreens = useMediaQuery("(min-width: 1265px)");
+  const navbarBackground = isTopOfPage ? "bg-black" : "bg-black/[0.3] drop-shadow";
 
   return (
     <nav>
@@ -70,15 +70,15 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   />
                 </div>
                 <div className={`${flexBetween} gap-8`}>
-                 
+
                   <ActionButton setSelectedPage={setSelectedPage}>
-                    {strings.BecomeMember}
+                    {strings.becomeMember}
                   </ActionButton>
                 </div>
               </div>
             ) : (
               <button
-                className="rounded-full bg-primary-300 p-2"
+                className="rounded-full bg-none p-2"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
                 <Bars3Icon className="h-6 w-6 text-white" />
@@ -90,35 +90,56 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
       {/* MOBILE MENU MODAL */}
       {!isAboveMediumScreens && isMenuToggled && (
-        <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
-          {/* CLOSE ICON */}
-          <div className="flex justify-end p-12">
-            <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-              <XMarkIcon className="h-6 w-6 text-gray-400" />
-            </button>
-          </div>
+        <div className="fixed right-0 bottom-0 z-40 h-full w-full bg-black/[0.9] drop-shadow-xl">
+          <div className="flex justify-start items-center p-12">
+              <img src={Logo} />
+            </div>
+          
+          
 
           {/* MENU ITEMS */}
-          <div className="ml-[33%] flex flex-col gap-10 text-2xl">
+          <div className="ml-[33%] flex flex-col gap-10 text-2xl text-neutral-300">
             <Link
               page="Home"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setMenuIsToggled={setIsMenuToggled}
             />
             <Link
-              page="Benefits"
+              page="Our Mission"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setMenuIsToggled={setIsMenuToggled}
             />
             <Link
-              page="Our Classes"
+              page="Our Value"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setMenuIsToggled={setIsMenuToggled}
+            />
+            <Link
+              page="Why us"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+              setMenuIsToggled={setIsMenuToggled}
+            />
+            <Link
+              page="Our Services"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+              setMenuIsToggled={setIsMenuToggled}
+            />
+            <Link
+              page="Testimonials"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+              setMenuIsToggled={setIsMenuToggled}
             />
             <Link
               page="Contact Us"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              setMenuIsToggled={setIsMenuToggled}
             />
           </div>
         </div>
