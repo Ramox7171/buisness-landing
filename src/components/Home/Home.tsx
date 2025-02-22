@@ -79,7 +79,7 @@ const Home = ({ setSelectedPage }: Props) => {
                         ))}
 
                         </div>
-                        TEST TEST
+                        
                     </div>
                 )}
             </motion.div>
