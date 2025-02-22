@@ -26,6 +26,9 @@ const OurMission = ({setSelectedPage}:Props) => {
       <p className="mx-auto mb-2 font-bold text-primary-100">{strings.ourMissionSmall}</p>
       <h1 className=" mb-2 text-4xl md:text-5xl font-montserrat font-bold text-white">{strings.ourMissionBig}</h1>
       <p className="mx-auto mt-5 mb-2 font-bold text-white">{strings.loremMedium}</p>
+      <button
+       className="w-5 mt-4 px-5 py-2 bg-primary-100 text-white rounded-lg  hover:bg-primary-300 transition duration-300"
+        >{strings.missonDiscover}</button>
       
       </div>
       </div>
