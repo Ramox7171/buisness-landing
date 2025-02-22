@@ -1,10 +1,13 @@
 {
 "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt",
+"loremMedium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem eros, pharetra sit amet tellus eu, accumsan sodales arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam egestas rhoncus dolor sed facilisis. Curabitur efficitur posuere quam non fermentum. Nam imperdiet nunc eget dolor malesuada, quis sollicitudin nunc malesuada. Donec vestibulum, orci a tincidunt ultrices, mi tortor consectetur purus, id mattis massa odio vel dui. Donec lobortis ornare luctus. Sed eu mauris posuere, eleifend eros ac, hendrerit libero.",
 "becomeMember": "Become a member",
 "welcomeTextSmall": "Welcome in our tech community!",
 "welcomeTextBig": "Your path to Buisness Excellence",
 "learnMore": "Learn more...",
-"trustedBy": "Trusted by 25000+ world-class brands and organizations of all sizes"
+"trustedBy": "Trusted by 25000+ world-class brands and organizations of all sizes",
+"ourMissionSmall":"Who we are",
+"ourMissionBig": "Transforming Businesses in the Digital Age"
 
     
 }
