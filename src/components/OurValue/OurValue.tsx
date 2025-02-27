@@ -4,6 +4,7 @@ import backgroundImg from "../../assets/MeetingWhyus.jpg";
 import { SelectedPage } from "../../shared/types.helper";
 import * as strings from "../../shared/mock-content.strings.json"
 import {Eye, Fingerprint} from "lucide-react";
+import Counter from "../../shared/Counter";
 
 
 type Props = {
@@ -65,8 +66,12 @@ const OurValue = ({ setSelectedPage }: Props) => {
                     </div>
                    </div>
                 </div>
-                {isAboveMediumScreens && <div className="absolute bottom-0 h-1/6 w-full bg-neutral-900">
-                <p className="text-6xl text-white">48k</p>
+                {isAboveMediumScreens && 
+                <div className="absolute flex justify-between bottom-0 h-1/6 w-full bg-neutral-900">
+                <Counter num={56} item={strings.ourValueCountOne}/>
+                <Counter num={38} item={strings.ourValueCountTwo}/>
+                <Counter showKPlus={false} num={300} item={strings.ourValueCountThree}/>
+                <Counter showKPlus={false} num={12} item={strings.ourValueCountFour}/>
                 </div>}
             </motion.div>
         </section>
