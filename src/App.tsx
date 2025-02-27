@@ -5,6 +5,8 @@ import { SelectedPage } from "./shared/types.helper";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home/Home";
 import OurMission from "./components/Mission/OurMission";
+import OurValue from "./components/OurValue/OurValue";
+
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
     SelectedPage.Home);
@@ -33,6 +35,7 @@ function App() {
       />
       <Home setSelectedPage={setSelectedPage} />
       <OurMission setSelectedPage={setSelectedPage} />
+      <OurValue setSelectedPage={setSelectedPage} />
         
       </div>
     </>

@@ -4,7 +4,9 @@ export enum SelectedPage {
     Home = "home",
     OurMission= "ourmission",
     WhyUs = "whyus",
+    OurValue = "ourvalue",
     ContactUs = "contactus",
+
     
   }
 
