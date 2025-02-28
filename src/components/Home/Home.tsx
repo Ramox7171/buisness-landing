@@ -1,6 +1,6 @@
 import { ImgLogo, SelectedPage, SLink } from "../../shared/types.helper";
 import { motion } from "framer-motion";
-import homePageImg from "../../assets/MeetingHomepage.png";
+import homePageImg from "../../assets/MeetingHomepage.png"
 import useMediaQuery from "../../hooks/useMediaQuery";
 import * as strings from "../../shared/mock-content.strings.json"
 import { links } from "../../shared/mock.data";
@@ -25,7 +25,7 @@ const Home = ({ setSelectedPage }: Props) => {
             />
 
 
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-80 -z-1" />
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 -z-1" />
 
             <motion.div
                 className="relative mx-auto flex h-full w-full items-center justify-center"

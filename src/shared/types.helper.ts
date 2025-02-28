@@ -20,4 +20,12 @@ export enum SelectedPage {
     alt: string;
     image: string;
   }
+
+  export type TReason = {
+    title: string,
+    reason: string,
+    id: number;
+
+
+  }
   

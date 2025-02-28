@@ -2,10 +2,11 @@ import { useEffect,useState } from "react";
 
 
 import { SelectedPage } from "./shared/types.helper";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import OurMission from "./components/Mission/OurMission";
 import OurValue from "./components/OurValue/OurValue";
+import WhyUs from "./components/WhyUs/WhyUs";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -36,6 +37,7 @@ function App() {
       <Home setSelectedPage={setSelectedPage} />
       <OurMission setSelectedPage={setSelectedPage} />
       <OurValue setSelectedPage={setSelectedPage} />
+      <WhyUs setSelectedPage={setSelectedPage} />
         
       </div>
     </>
