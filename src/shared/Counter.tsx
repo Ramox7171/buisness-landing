@@ -16,7 +16,7 @@ const Counter = ({num,item,showKPlus=true,speed=30 }: Props) => {
           const timer = setTimeout(() => setCurrNumber(currNumber + 1), speed);
           return () => clearTimeout(timer);
         }
-      }, [currNumber, num]);
+      }, [currNumber, num,speed]);
   return (
     <div className="flex flex-col w-1/6 items-center">
         <p className="mt-2 text-primary-100 font-serif font-bold text-4xl">{currNumber}{showKPlus ? `k+` : ""}</p>
