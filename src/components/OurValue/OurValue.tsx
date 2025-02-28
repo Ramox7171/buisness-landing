@@ -31,7 +31,7 @@ const OurValue = ({ setSelectedPage }: Props) => {
             >
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 
-                <div className="flex flex-col absolute mt-20 left-0 md:left-20 top-10 md:w-5/12 md:h-3/5 h-auto justify-center items-start text-white text-left p-10 rounded-lg border border-primary-300"
+                <div className="flex flex-col relative mt-20 left-0 md:left-20 top-10 md:w-5/12 md:h-3/5 h-auto justify-center items-start text-white text-left p-10 rounded-lg border border-primary-300"
                     style={{
                         background: "linear-gradient(to top, rgba(0, 119, 182, 0.35), rgba(0, 180, 216, 0.7))"
                     }}>
