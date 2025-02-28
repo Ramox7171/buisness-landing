@@ -67,10 +67,10 @@ const OurValue = ({ setSelectedPage }: Props) => {
                    </div>
                 </div>
                 {isAboveMediumScreens && 
-                <div className="absolute flex justify-between bottom-0 h-[8%] w-full bg-neutral-900">
+                <div className="absolute flex justify-around bottom-0 h-[8%] w-full bg-neutral-900">
                 <Counter num={56} item={strings.ourValueCountOne}/>
                 <Counter num={38} item={strings.ourValueCountTwo}/>
-                <Counter showKPlus={false} num={300} item={strings.ourValueCountThree}/>
+                <Counter showKPlus={false} num={300} speed={10} item={strings.ourValueCountThree}/>
                 <Counter showKPlus={false} num={12} item={strings.ourValueCountFour}/>
                 </div>}
             </motion.div>

@@ -4,15 +4,16 @@ type Props = {
     num :number;
     item: string;
     showKPlus?: boolean;
+    speed?:number;
 
 }
 
-const Counter = ({num,item,showKPlus=true }: Props) => {
+const Counter = ({num,item,showKPlus=true,speed=30 }: Props) => {
     const [currNumber,setCurrNumber] = useState<number>(0);
 
     useEffect(() => {
         if (currNumber < num) {
-          const timer = setTimeout(() => setCurrNumber(currNumber + 1), 30);
+          const timer = setTimeout(() => setCurrNumber(currNumber + 1), speed);
           return () => clearTimeout(timer);
         }
       }, [currNumber, num]);
