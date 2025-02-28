@@ -12,7 +12,7 @@ type Props = {
 }
 
 const OurValue = ({ setSelectedPage }: Props) => {
-    const isAboveMediumScreens = useMediaQuery("(min-width: 1265px)");
+    const isAboveMediumScreens = useMediaQuery("(min-width: 1300px)");
 
     return (
         <section id="ourvalue" className="relative w-full h-screen">
@@ -37,7 +37,7 @@ const OurValue = ({ setSelectedPage }: Props) => {
                     visible: { opacity: 1, x: 0 },
                 }}
             >
-                <div className="flex flex-col absolute mt-20 left-20 top-10 md:w-5/12 h-3/5 justify- items-start text-white text-left p-10 rounded-lg  border-primary-300 border"
+                <div className="flex flex-col absolute mt-20 left-0 md:left-20 top-10 md:w-5/12 md:h-3/5 h-auto justify-center items-start text-white text-left p-10 rounded-lg  border-primary-300 border"
                 style={{
                     background: "linear-gradient(to top, rgba(0, 119, 182, 0.35), rgba(0, 180, 216, 0.7))"
                   }}>
@@ -48,7 +48,7 @@ const OurValue = ({ setSelectedPage }: Props) => {
                     <div className=" my-8 w-[90%] border-t border-gray-400 mx-auto"></div>
                     <div className="flex my-4 items-center gap-4">
                     <div className="w-auto h-auto"><div className=" p-2 bg-primary-300 rounded-full"><Eye size={42} /></div></div>
-                    <div className="mx-4 ">
+                    <div className="m-0 md:mx-4 ">
                         <p className="font-bold text-xl">{strings.ourValueTitleVision}</p>
                         <p className="text-gray-200">{strings.ourValueVisionParagraph}</p>
 
@@ -67,7 +67,7 @@ const OurValue = ({ setSelectedPage }: Props) => {
                    </div>
                 </div>
                 {isAboveMediumScreens && 
-                <div className="absolute flex justify-between bottom-0 h-1/6 w-full bg-neutral-900">
+                <div className="absolute flex justify-between bottom-0 h-[8%] w-full bg-neutral-900">
                 <Counter num={56} item={strings.ourValueCountOne}/>
                 <Counter num={38} item={strings.ourValueCountTwo}/>
                 <Counter showKPlus={false} num={300} item={strings.ourValueCountThree}/>
