@@ -5,13 +5,15 @@ export enum SelectedPage {
     OurMission= "ourmission",
     WhyUs = "whyus",
     OurValue = "ourvalue",
+    Services = "services",
+    Testimonials = "testimonials",
     ContactUs = "contactus",
 
     
   }
 
   export interface SLink {
-    icon: React.ReactNode;
+    icon: React.ReactElement;
     title: string;
     href: string; 
   }
@@ -28,4 +30,13 @@ export enum SelectedPage {
 
 
   }
+
+  export interface Service {
+    id: number;
+    title: string;
+    description: string;
+    icon: React.ReactElement; 
+    buttonText: string;
+  }
+  
   

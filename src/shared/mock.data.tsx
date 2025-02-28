@@ -1,5 +1,5 @@
-import { ImgLogo, SLink, TReason } from "./types.helper";
-import { Circle } from "lucide-react";
+import { ImgLogo, SLink, TReason, Service } from "./types.helper";
+import { Circle, Globe, FileCog,MailOpen,PenTool,TabletSmartphone, Flag  } from "lucide-react";
 import logo1 from "../assets/logoipsum-263.png";
 import logo2 from "../assets/logoipsum-286.png";
 import logo3 from "../assets/logoipsum-332.png";
@@ -70,3 +70,49 @@ export const reasons: TReason[] = [
     
     
 ];
+
+export const services: Service[] = [
+    {
+      id: 1,
+      title: "Website Development",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      icon: <Globe />,
+      buttonText: "LEARN MORE"
+    },
+    {
+      id: 2,
+      title: "SEO Service",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      icon: <FileCog />,
+      buttonText: "LEARN MORE"
+    },
+    {
+      id: 3,
+      title: "Digital Marketing",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      icon:<MailOpen /> ,
+      buttonText: "LEARN MORE"
+    },
+    {
+      id: 4,
+      title: "Graphics Design",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      icon: <PenTool />,
+      buttonText: "LEARN MORE"
+    },
+    {
+      id: 5,
+      title: "Mobile App Development",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      icon: <TabletSmartphone />,
+      buttonText: "LEARN MORE"
+    },
+    {
+      id: 6,
+      title: "Social Media Strategy",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      icon: <Flag />,
+      buttonText: "LEARN MORE"
+    }
+  ];
+  

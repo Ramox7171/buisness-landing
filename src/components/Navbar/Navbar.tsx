@@ -124,7 +124,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               setMenuIsToggled={setIsMenuToggled}
             />
             <Link
-              page="Our Services"
+              page="Services"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
               setMenuIsToggled={setIsMenuToggled}
