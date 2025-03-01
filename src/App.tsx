@@ -8,6 +8,8 @@ import OurMission from "./components/Mission/OurMission";
 import OurValue from "./components/OurValue/OurValue";
 import WhyUs from "./components/WhyUs/WhyUs";
 import Services from "./components/Services/Services";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -40,6 +42,8 @@ function App() {
       <OurValue setSelectedPage={setSelectedPage} />
       <WhyUs setSelectedPage={setSelectedPage} />
       <Services setSelectedPage={setSelectedPage}/>
+      <Testimonials setSelectedPage={setSelectedPage} />
+      <Contact setSelectedPage={setSelectedPage} />
         
       </div>
     </>

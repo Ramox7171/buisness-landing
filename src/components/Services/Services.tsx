@@ -23,9 +23,9 @@ const Services = ({ setSelectedPage }: Props) => {
       visible: { opacity: 1, x: 0 },
     }}
   >
-    <div className="mt-12 flex flex-col items-center w-full">
-      <p className="my-4 font-bold text-primary-100">{strings.servicesHelloSmall}</p>
-      <p className="my-4 font-bold text-gray-200 text-4xl">{strings.servicesHelloBig}</p>
+    <div className="mt-6 flex flex-col items-center w-full h-auto">
+      <p className="my-2 font-bold text-primary-100">{strings.servicesHelloSmall}</p>
+      <p className="mt-4 mb-2 font-bold text-gray-200 text-4xl">{strings.servicesHelloBig}</p>
     </div>
     
     <div className="w-5/6 flex flex-wrap justify-center gap-6">

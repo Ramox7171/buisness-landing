@@ -15,7 +15,7 @@ const WhyUs = ({ setSelectedPage }: Props) => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1265px)")
 
     return (
-        <section id="whyus" className="mb-20 mt-20 w-full h-auto">
+        <section id="whyus" className="mb-10 mt-5 w-full h-auto">
             <motion.div className="flex h-full"
                 onViewportEnter={() => setSelectedPage(SelectedPage.WhyUs)}
                 initial="hidden"

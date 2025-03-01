@@ -40,7 +40,7 @@ const OurMission = ({ setSelectedPage }: Props) => {
 
         <div className="w-full md:w-1/2 flex flex-col justify-center h-auto">
           {isAboveMediumScreens ? (
-            <div className="flex flex-col max-w-xl bg-neutral-900">
+            <div className="flex flex-col w-[800px] bg-neutral-900 mx-auto">
               <div className="flex flex-row items-center gap-5 hover:cursor-pointer hover:border hover:border-primary-300">
                 <img src={phone} className="w-[400px]" />
                 <div className="m-2 text-white w-full">
@@ -50,14 +50,14 @@ const OurMission = ({ setSelectedPage }: Props) => {
               </div>
 
               <div className="flex">
-                <div className="flex items-center justify-between w-[400px] bg-neutral-700 hover:cursor-pointer hover:border hover:border-primary-300">
+                <div className="flex items-center justify-between w-full bg-neutral-700 hover:cursor-pointer hover:border hover:border-primary-300">
                   <img src={biznes} className="w-[150px]" />
                   <div className="flex flex-col w-full px-4 text-white gap-3">
                     <p className="text-xl font-bold">{strings.missionMeetingBig}</p>
                     <p>{strings.missionMeetingSmall}</p>
                   </div>
                 </div>
-                <div className="flex items-center justify-between w-1/2 bg-neutral-800 hover:cursor-pointer hover:border hover:border-primary-300">
+                <div className="flex items-center justify-between w-full bg-neutral-800 hover:cursor-pointer hover:border hover:border-primary-300">
                   <div className="flex flex-col px-4 text-white gap-3">
                     <p className="text-xl font-bold">{strings.missionConsulBig}</p>
                     <p>{strings.missionConsulSmall}</p>
