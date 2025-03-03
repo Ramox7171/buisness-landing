@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Jessica Adams",
+      "role": "E-commerce Manager",
+      "testimonial": "Digital Prime’s digital agency services have been a game-changer for our e-commerce business...",
+      "avatar": "/images/avatar1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Thompson",
+      "role": "Marketing Director",
+      "testimonial": "Digital Prime has completely transformed our online presence...",
+      "avatar": "/images/avatar2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "role": "CEO, Little Startup",
+      "testimonial": "I can’t recommend Digital Prime enough. Their personalized approach...",
+      "avatar": "/images/avatar3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Daniel Smith",
+      "role": "CTO, Tech Innovators",
+      "testimonial": "Their strategies have significantly improved our conversion rates...",
+      "avatar": "/images/avatar4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Emily Carter",
+      "role": "Head of Marketing, Retail Co.",
+      "testimonial": "Working with Digital Prime has been a fantastic experience...",
+      "avatar": "/images/avatar5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "James Wilson",
+      "role": "Founder, Startup Hub",
+      "testimonial": "Our online visibility has drastically improved thanks to their efforts...",
+      "avatar": "/images/avatar6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Sophia Martinez",
+      "role": "CMO, Global Corp",
+      "testimonial": "A truly outstanding digital partner...",
+      "avatar": "/images/avatar7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "David Brown",
+      "role": "VP, Growth Strategy",
+      "testimonial": "Highly professional team delivering top-notch results...",
+      "avatar": "/images/avatar8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Olivia White",
+      "role": "Product Lead, SaaS Inc.",
+      "testimonial": "Their insights have been invaluable to our success...",
+      "avatar": "/images/avatar9.jpg"
+    }
+  ]
+  
