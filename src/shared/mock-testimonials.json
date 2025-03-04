@@ -1,66 +1,65 @@
 [
-    {
-      "id": 1,
-      "name": "Jessica Adams",
-      "role": "E-commerce Manager",
-      "testimonial": "Digital Prime’s digital agency services have been a game-changer for our e-commerce business...",
-      "avatar": "/images/avatar1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Sarah Thompson",
-      "role": "Marketing Director",
-      "testimonial": "Digital Prime has completely transformed our online presence...",
-      "avatar": "/images/avatar2.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Michael Johnson",
-      "role": "CEO, Little Startup",
-      "testimonial": "I can’t recommend Digital Prime enough. Their personalized approach...",
-      "avatar": "/images/avatar3.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Daniel Smith",
-      "role": "CTO, Tech Innovators",
-      "testimonial": "Their strategies have significantly improved our conversion rates...",
-      "avatar": "/images/avatar4.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Emily Carter",
-      "role": "Head of Marketing, Retail Co.",
-      "testimonial": "Working with Digital Prime has been a fantastic experience...",
-      "avatar": "/images/avatar5.jpg"
-    },
-    {
-      "id": 6,
-      "name": "James Wilson",
-      "role": "Founder, Startup Hub",
-      "testimonial": "Our online visibility has drastically improved thanks to their efforts...",
-      "avatar": "/images/avatar6.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Sophia Martinez",
-      "role": "CMO, Global Corp",
-      "testimonial": "A truly outstanding digital partner...",
-      "avatar": "/images/avatar7.jpg"
-    },
-    {
-      "id": 8,
-      "name": "David Brown",
-      "role": "VP, Growth Strategy",
-      "testimonial": "Highly professional team delivering top-notch results...",
-      "avatar": "/images/avatar8.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Olivia White",
-      "role": "Product Lead, SaaS Inc.",
-      "testimonial": "Their insights have been invaluable to our success...",
-      "avatar": "/images/avatar9.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Jessica Adams",
+    "role": "E-commerce Manager",
+    "testimonial": "Digital Prime’s digital agency services have been a game-changer for our e-commerce business. Their expertise in conversion optimization and consumer behavior has resulted in a significant boost in our online sales. The team is highly professional, always available, and ready to adapt to our needs. They are an indispensable asset for any company looking to thrive in the digital landscape.",
+    "avatar": "/images/user8.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Thompson",
+    "role": "Marketing Director",
+    "testimonial": "Digital Prime has completely transformed our online presence. As the Marketing Director of ABC Corporation, I’ve witnessed their expertise and innovative strategies generate remarkable results, significantly increasing our website traffic and conversions. Their data-driven approach ensures we are always ahead of the competition. I highly recommend them for any business looking to strengthen its digital footprint.",
+    "avatar": "/images/user9.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "role": "CEO, Little Startup",
+    "testimonial": "I can’t recommend Digital Prime enough. Their personalized approach, attention to detail, and exceptional customer support have made them an invaluable partner. Thanks to their efforts, our brand awareness has skyrocketed, leading to substantial growth for our business. They truly understand the startup ecosystem and provide solutions tailored to our needs.",
+    "avatar": "/images/user10.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Daniel Smith",
+    "role": "CTO, Tech Innovators",
+    "testimonial": "Their strategies have significantly improved our conversion rates, making a real difference in our revenue. The team at Digital Prime is always on top of the latest trends and ensures we stay ahead of the competition. Their analytical approach to marketing and growth is something I haven't seen before. Working with them has been a game-changer for our tech-driven company.",
+    "avatar": "/images/user1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Adam Carter",
+    "role": "Head of Marketing, Retail Co.",
+    "testimonial": "Working with Digital Prime has been a fantastic experience. Their ability to understand our brand and create tailored strategies has made a significant impact on our customer engagement. Our online presence is stronger than ever, and sales have seen a noticeable increase. They are a true partner in our digital success.",
+    "avatar": "/images/user2.jpg"
+  },
+  {
+    "id": 6,
+    "name": "James Wilson",
+    "role": "Founder, Startup Hub",
+    "testimonial": "Our online visibility has drastically improved thanks to their efforts. They have a deep understanding of SEO, paid media, and content strategy, ensuring we attract the right audience. Their proactive approach and commitment to excellence set them apart. I wouldn’t trust anyone else with our digital marketing needs.",
+    "avatar": "/images/user3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "James Martinez",
+    "role": "CMO, Global Corp",
+    "testimonial": "A truly outstanding digital partner. Digital Prime has provided us with data-driven insights that have shaped our marketing campaigns with precision. Their ability to adapt to changing trends and consistently deliver exceptional results makes them a must-have for any business serious about growth. They have played a crucial role in our international expansion efforts.",
+    "avatar": "/images/user4.jpg"
+  },
+  {
+    "id": 8,
+    "name": "David Brown",
+    "role": "VP, Growth Strategy",
+    "testimonial": "Highly professional team delivering top-notch results. From the very first meeting, they took the time to understand our business goals and crafted a strategy that exceeded our expectations. Their dedication to performance marketing and ROI-driven decisions has set us up for long-term success. I highly recommend their services.",
+    "avatar": "/images/user5.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Donald White",
+    "role": "Product Lead, SaaS Inc.",
+    "testimonial": "Their insights have been invaluable to our success. Digital Prime has a deep understanding of the SaaS industry and knows how to position products for maximum impact. Their expertise in user acquisition and retention strategies has been instrumental in scaling our customer base. They are an essential partner in our journey.",
+    "avatar": "/images/user6.jpg"
+  }
+]

@@ -2,6 +2,7 @@
 import { SelectedPage } from '../../shared/types.helper'
 import { motion } from "framer-motion";
 import * as strings from "../../shared/mock-content.strings.json";
+import TestimonialsSlider from './TestimonialsSlider';
 
 
 type Props = {
@@ -10,7 +11,7 @@ type Props = {
 
 const Testimonials = ({ setSelectedPage }: Props) => {
     return (
-        <section id="testimonials" className="relative w-full min-h-screen bg-neutral-900 flex flex-col items-center justify-start">
+      <section id="testimonials" className="relative w-full bg-neutral-900 flex flex-col items-center justify-start pb-20">
   <motion.div
     onViewportEnter={() => setSelectedPage(SelectedPage.Testimonials)}
     className="w-full flex flex-col items-center justify-start py-12"
@@ -25,12 +26,12 @@ const Testimonials = ({ setSelectedPage }: Props) => {
   >
     <div className="mt-12 flex flex-col items-center w-full">
       <p className="my-4 font-bold text-primary-100">{strings.testimonialsHelloSmall}</p>
-      <p className="my-4 font-bold text-gray-200 text-4xl">{strings.testimonialsHelloBig}</p>
+      <TestimonialsSlider />
     </div>
-    
-    
   </motion.div>
 </section>
+
+    
 
 
 )}
