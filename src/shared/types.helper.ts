@@ -38,5 +38,14 @@ export enum SelectedPage {
     icon: React.ReactElement; 
     buttonText: string;
   }
+
+
+  export interface FooterLink {
+    
+      title: string;
+      href: string;
+      icon: string;
+  }
+  
   
   

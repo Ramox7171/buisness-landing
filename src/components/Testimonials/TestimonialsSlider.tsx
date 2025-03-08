@@ -29,7 +29,7 @@ const TestimonialsSlider = () => {
   return (
     <div className="flex flex-col w-full max-w-7xl mx-auto p-6 text-white mb-20">
       
-      <h2 className="text-center font-bold text-5xl sm:text-6xl text-neutral-300 mb-8">
+      <h2 className="text-center font-bold text-4xl sm:text-6xl text-neutral-300 mb-8">
         {strings.testimonialsHelloBig}
       </h2>
       
