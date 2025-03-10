@@ -1,4 +1,4 @@
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import testimonialsData from "../../shared/mock-testimonials.json";
 import * as strings from "../../shared/mock-content.strings.json";
 
@@ -28,12 +28,12 @@ const TestimonialsSlider = () => {
 
   return (
     <div className="flex flex-col w-full max-w-7xl mx-auto p-6 text-white mb-20">
-      
+
       <h2 className="text-center font-bold text-4xl sm:text-6xl text-neutral-300 mb-8">
         {strings.testimonialsHelloBig}
       </h2>
-      
-     
+
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full min-h-[60vh]">
         {visibleTestimonials.map((testimonial) => (
           <div
@@ -54,14 +54,13 @@ const TestimonialsSlider = () => {
         ))}
       </div>
 
-      
+
       <div className="flex justify-center mt-8 space-x-3">
         {Array.from({ length: totalPages }).map((_, index) => (
           <button
             key={index}
-            className={`w-4 h-4 rounded-full transition-colors duration-300 ${
-              index === currentPage ? "bg-neutral-300" : "bg-neutral-700"
-            }`}
+            className={`w-4 h-4 rounded-full transition-colors duration-300 ${index === currentPage ? "bg-neutral-300" : "bg-neutral-700"
+              }`}
             onClick={() => setCurrentPage(index)}
           />
         ))}
