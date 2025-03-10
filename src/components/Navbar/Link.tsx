@@ -8,10 +8,10 @@ type Props = {
   setMenuIsToggled?: (value: boolean) => void
 };
 
-const Link = ({ page, selectedPage, setSelectedPage,setMenuIsToggled }: Props) => {
+const Link = ({ page, selectedPage, setSelectedPage, setMenuIsToggled }: Props) => {
   const lowerCasePage = page.toLowerCase().replace(/ /g, "") as SelectedPage;
 
-  
+
 
   return (
     <AnchorLink
@@ -20,13 +20,13 @@ const Link = ({ page, selectedPage, setSelectedPage,setMenuIsToggled }: Props) =
       `}
       href={`#${lowerCasePage}`}
       onClick={() => {
-        
+
         setSelectedPage(lowerCasePage);
         if (setMenuIsToggled) {
           setMenuIsToggled(false);
         }
-      
-      
+
+
       }}
     >
       {page}

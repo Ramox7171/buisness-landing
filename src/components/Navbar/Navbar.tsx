@@ -92,10 +92,10 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
       {!isAboveMediumScreens && isMenuToggled && (
         <div className="fixed right-0 bottom-0 z-40 h-full w-full bg-black/[0.9] drop-shadow-xl">
           <div className="flex justify-start items-center p-12">
-              <img src={Logo} />
-            </div>
-          
-          
+            <img src={Logo} />
+          </div>
+
+
 
           {/* MENU ITEMS */}
           <div className="ml-[33%] flex flex-col gap-10 text-2xl text-neutral-300">

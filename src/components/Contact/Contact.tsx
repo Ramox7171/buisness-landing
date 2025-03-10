@@ -26,7 +26,7 @@ const Contact = ({ setSelectedPage }: Props) => {
         <div className="mt-12 px-6 sm:px-12 flex flex-col items-center w-full min-h-[500px] bg-news-back bg-cover">
           <p className="my-4 font-bold text-primary-100 text-center">{strings.contactHelloSmall}</p>
           <p className="my-4 font-bold text-gray-200 text-2xl sm:text-4xl">{strings.contactHelloBig}</p>
-          
+
           {/* Input & Button */}
           <div className="mt-12 sm:mt-24 mb-4 w-full sm:w-2/3 flex flex-col sm:flex-row gap-3 sm:gap-0">
             <input
@@ -44,15 +44,15 @@ const Contact = ({ setSelectedPage }: Props) => {
         {/* Footer */}
         <footer className="w-full flex justify-center items-center bg-neutral-800 text-gray-200 mt-16 sm:mt-20">
           <div className="w-full max-w-6xl flex flex-col px-6 md:px-12 py-10">
-            
+
             {/* Upper Section */}
             <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-10">
-              
+
               {/* Logo + Social Media */}
               <div className="w-full md:w-1/2 text-center md:text-left">
                 <h2 className="text-4xl md:text-5xl font-bold uppercase">{strings.contactRamoxLogo}</h2>
                 <p className="mt-4 text-sm md:text-base font-light">{strings.lorem}</p>
-                
+
                 {/* Social Media Icons */}
                 <div className="flex justify-center md:justify-start gap-4 mt-4">
                   {footerLinks.map((link) => (
@@ -67,7 +67,7 @@ const Contact = ({ setSelectedPage }: Props) => {
 
               {/* Links Section */}
               <div className="w-full md:w-1/2 flex flex-col sm:flex-row justify-between gap-6 text-center md:text-left">
-                
+
                 {/* Services */}
                 <div className="flex flex-col">
                   <p className="font-bold text-xl">{strings.contactListServices}</p>

@@ -15,7 +15,7 @@ const OurMission = ({ setSelectedPage }: Props) => {
 
   return (
     <section id="ourmission" className="w-full min-h-screen flex items-center overflow-hidden">
-      <motion.div 
+      <motion.div
         className="flex flex-col md:flex-row flex-wrap w-full justify-center items-center h-full"
         onViewportEnter={() => setSelectedPage(SelectedPage.OurMission)}
         initial="hidden"
@@ -26,7 +26,7 @@ const OurMission = ({ setSelectedPage }: Props) => {
           hidden: { opacity: 0, x: 50 },
           visible: { opacity: 1, x: 0 },
         }}>
-        
+
         <div className="md:w-1/2 w-5/6 h-auto md:px-8 px-0">
           <div className="flex flex-col gap-3 w-3/5 my-24 mx-12">
             <p className="mb-2 mt-4 sm:mt-0 text-left font-bold text-primary-100">{strings.ourMissionSmall}</p>

@@ -74,12 +74,12 @@ const Home = ({ setSelectedPage }: Props) => {
                     <div className="absolute flex flex-col bottom-0 bg-black items-center w-full h-[calc(12.5%)]">
                         <div className="text-white font-sans italic">{strings.trustedBy}</div>
                         <div className="flex mt-4 px-12 w-full h-auto items-center justify-evenly">
-                        {logos.map((logo:ImgLogo)=>(
-                            <img className="w-auto h-12" src={logo.image} alt={logo.alt} key={logo.alt} />
-                        ))}
+                            {logos.map((logo: ImgLogo) => (
+                                <img className="w-auto h-12" src={logo.image} alt={logo.alt} key={logo.alt} />
+                            ))}
 
                         </div>
-                        
+
                     </div>
                 )}
             </motion.div>

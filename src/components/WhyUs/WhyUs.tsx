@@ -61,10 +61,10 @@ const WhyUs = ({ setSelectedPage }: Props) => {
                                 <p className="text-gray-200 text-2xl font-bold">{strings.whyUsCall}</p>
                                 <p className="text-gray-200 text-2xl font-bold">{strings.whyUsNumber}</p>
                                 <motion.button className="w-1/2 h-10 text-gray-200 font-bold bg-primary-300 rounded-sm hover:text-neutral-900 hover:border hover:border-neutral-50"
-                                whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.95 }}
-                                animate={{ scale: [1, 1.05, 1] }}
-                                transition={{ repeat: Infinity, duration: 300, ease: "easeInOut" }}
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.95 }}
+                                    animate={{ scale: [1, 1.05, 1] }}
+                                    transition={{ repeat: Infinity, duration: 300, ease: "easeInOut" }}
                                 >
                                     {strings.whyUsButton}
                                 </motion.button>
