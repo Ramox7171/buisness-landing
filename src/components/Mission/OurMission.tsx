@@ -14,9 +14,9 @@ const OurMission = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1265px)");
 
   return (
-    <section id="ourmission" className="md:mt-20 md:mb-40 w-full">
+    <section id="ourmission" className="w-full min-h-screen flex items-center overflow-hidden">
       <motion.div 
-        className="flex flex-col md:flex-row flex-wrap w-full justify-center items-center h-auto"
+        className="flex flex-col md:flex-row flex-wrap w-full justify-center items-center h-full"
         onViewportEnter={() => setSelectedPage(SelectedPage.OurMission)}
         initial="hidden"
         whileInView="visible"
