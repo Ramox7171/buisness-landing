@@ -20,7 +20,7 @@ const Home = ({ setSelectedPage }: Props) => {
         <section id="home" className="relative w-full h-screen">
 
             <div
-                className="absolute top-0 left-0 w-full h-full bg-cover bg-center -z-1 bg-opacity-10"
+                className="absolute top-0 left-0 w-full h-full bg-cover bg-center z-0 bg-opacity-10"
                 style={{ backgroundImage: `url(${homePageImg})` }}
             />
 
